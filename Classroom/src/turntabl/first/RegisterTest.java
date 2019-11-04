@@ -17,7 +17,7 @@ class RegisterTest extends Student {
     void getRegister() {
         List<Nameable> students = Arrays.asList(
                 new Student("Ephraim", Level.LEVEL_100, Arrays.asList(1.2, 3.3, 45.6, 45.6)),
-                new Student("Margaret", Level.LEVEL_100, Arrays.asList(1.2, 3.3, 45.6))
+                new Student("Margaret", Level.LEVEL_100, Arrays.asList(1.2, 3.3, 45.6, 34.3))
         );
         Register reg = new Register(students);
         assertEquals(Arrays.asList("Ephraim ", "Margaret"), Arrays.asList("Ephraim ", "Margaret"));
